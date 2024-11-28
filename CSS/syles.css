@@ -5,7 +5,7 @@
 
 body{
     font-family: 'Monserrat',sans-serif;
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 
 /* MENU */
@@ -20,6 +20,28 @@ body{
 
 /* SLIDER DE IMAGENES */
 
-.corousel-inner {
+.carousel-inner{
     max-height: 39rem;
+}
+
+/* ESTILOS PARA DISPOSITIVOS MENORES A 768 */
+
+@media (max-width:768px){
+    #intro,#equipo{
+        width: 90% !important;
+    }
+}
+
+footer{
+    background: #1b2a4e;
+    min-height: 100px;
+}
+footer p {
+    color: #f3f3f3;
+    text-align: center;
+}
+#iconos i{
+    font-size: 36px;
+    padding: 0 8px;
+    color: #f3f3f3;
 }
